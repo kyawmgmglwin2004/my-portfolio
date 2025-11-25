@@ -7,18 +7,18 @@ const projectsData = [
   {
     title: 'Book selling website',
     description: 'A full-stack web application designed for managing books and orders featuring an intuitive admin dashboard and real-time status updates. The system includes secure authentication, inventory tracking, order management, and responsive UI components to deliver a smooth and efficient experience for both admins and users.',
-    tech: ['React', 'Node.js', 'Express', 'Mysql', 'Tailwind CSS'],
+    tech: ['React', 'Node.js', 'Express', 'Mysql', 'Tailwind CSS', 'Cloud Vps'],
     liveUrl: 'http://book.kyawmgmglwin.site', // <-- YOUR LIVE DEMO URL
     repoUrlFe: 'https://github.com/kyawmgmglwin2004/book-web-fe',
     repoUrlBe: 'https://github.com/kyawmgmglwin2004/book-web-be', // <-- YOUR GITHUB REPO URL
   },
   {
-    title: 'Project Two',
-    description: 'A responsive e-commerce frontend built with Next.js, featuring product filtering and a shopping cart.',
-    tech: ['Next.js', 'Tailwind CSS', 'Redux Toolkit'],
-    liveUrl: 'https://your-live-project-url-2.com', // <-- YOUR LIVE DEMO URL
-    repoUrlFe: 'https://github.com/your-username/your-repo-2', // <-- YOUR GITHUB REPO URL
-    repoUrlBe: 'https://github.com/your-username/your-repo-2', // <-- YOUR GITHUB REPO URL
+    title: 'MyanType (Typing Game)',
+    description: 'A bilingual typing game that supports both Myanmar and English. The game includes customizable time modes, player profiles, and a leaderboard system. It is designed to help users improve their typing speed and accuracy while making the experience fun and competitive.',
+    tech: ['Node.js', "Express", 'React', 'Tailwind CSS',  'Prisma', 'Mysql', 'Cloud Vps'],
+    liveUrl: 'https://myan-type.kyawmgmglwin.site/', // <-- YOUR LIVE DEMO URL
+    repoUrlFe: 'https://github.com/one-project-one-month/MyanType-React', // <-- YOUR GITHUB REPO URL
+    repoUrlBe: 'https://github.com/one-project-one-month/MyanType-Nodejs', // <-- YOUR GITHUB REPO URL
   },
   {
     title: 'Project Three',

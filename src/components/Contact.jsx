@@ -22,7 +22,7 @@ const Contact = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/api/v1/mail/send-mail",
+        "https://kyawmgmglwin.site:3000/api/v1/mail/send-mail",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

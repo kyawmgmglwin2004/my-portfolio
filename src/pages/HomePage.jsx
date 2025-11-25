@@ -6,6 +6,8 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import SoftSkills from '../components/SoftSkills';
+import Experience from '../components/Experience';
+import Education from '../components/Education';
 
 
 const HomePage = () => {
@@ -13,8 +15,10 @@ const HomePage = () => {
     <>
       <Hero />
       <About />
+      <Education />
       <Skills />
       <SoftSkills />
+      <Experience />
       <Projects />
       <Contact />
     </>
