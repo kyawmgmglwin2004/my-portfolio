@@ -33,7 +33,7 @@ const Hero = () => {
     >
       <div>
         <motion.h1 className="text-5xl md:text-6xl font-extrabold" variants={itemVariants}>
-          Hi, I'm <span className="text-indigo-600 dark:text-indigo-400">Your Name</span>
+          Hi, I'm <span className="text-indigo-600 dark:text-indigo-400">Kyaw Mg Mg Lwin</span>
         </motion.h1>
         <motion.p className="mt-4 text-xl md:text-2xl text-gray-600 dark:text-gray-300" variants={itemVariants}>
           I'm a Full-Stack Developer

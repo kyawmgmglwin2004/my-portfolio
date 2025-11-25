@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <a href="#hero" className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
-            YourName.dev
+            Kyaw Mg Mg Lwin.dev
           </a>
           <div className="flex items-center space-x-6">
             <a href="#about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
