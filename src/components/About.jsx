@@ -19,7 +19,7 @@ const About = () => {
 
         <div className="about-content relative z-10 p-6 md:p-10 flex flex-col md:flex-row items-center gap-6">
           <img
-            src="/images/profile.jpg"
+            src="/images/cv.png"
             alt="Profile"
             className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-white shadow-lg"
           />

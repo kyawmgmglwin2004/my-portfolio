@@ -22,7 +22,7 @@ const Contact = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/api/v1/mail/send-mail",
+        "https://kyawmgmglwin.site:3000/api/v1/mail/send-mail",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -56,7 +56,7 @@ const Contact = () => {
 
       <form
         onSubmit={sendMessage}
-        className="card max-w-2xl mx-auto text-center space-y-4"
+        className="card max-w-full mx-auto text-center space-y-4"
       >
         <input
           type="text"
@@ -115,13 +115,13 @@ const Contact = () => {
         >
           GitHub
         </a>
-        <a
+        {/* <a
           href="https://linkedin.com/in/your-profile"
           target="_blank"
           className="text-2xl hover:text-indigo-600 dark:hover:text-indigo-400"
         >
           LinkedIn
-        </a>
+        </a> */}
       </div>
     </motion.section>
   );

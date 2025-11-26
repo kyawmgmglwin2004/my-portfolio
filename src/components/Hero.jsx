@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import React from 'react';
+import resumeFile from '../assets/kmmlcv.pdf'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -42,9 +43,14 @@ const Hero = () => {
           I build clean, accessible, and performant web applications with modern technologies.
         </motion.p>
         <motion.div className="mt-8 space-x-4" variants={itemVariants}>
-          <a href="#projects" className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition-colors">
-            View My Work
-          </a>
+          <a
+                href={resumeFile}
+                download
+                rel="noopener noreferrer"
+                className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition-colors"
+              >
+                <i className="fa fa-download mr-2"></i> Download Resume
+              </a>
           <a href="#contact" className="border border-indigo-600 text-indigo-600 dark:text-indigo-400 px-6 py-3 rounded-full hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-400 dark:hover:text-gray-900 transition-all">
             Get In Touch
           </a>
