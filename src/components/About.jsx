@@ -17,21 +17,19 @@ const About = () => {
         <div className="about-bg absolute inset-0" aria-hidden="true" />
         <div className="about-overlay absolute inset-0" aria-hidden="true" />
 
-        <div className="about-content relative z-10 p-6 md:p-10 flex flex-col md:flex-row items-center gap-6">
+        <div className="about-content relative item-center  p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-10
+">
           <img
             src="/images/cv.png"
             alt="Profile"
-            className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-white shadow-lg"
+            className="w-36 h-36 md:w-55 md:h-55 rounded-full object-cover border-2 border-white shadow-lg md:my-auto  mx-auto"
           />
 
-          <div className="card bg-transparent text-white">
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed text-white">
               I'm a passionate developer with a knack for turning complex problems into simple, beautiful, and intuitive solutions. My journey in tech started a few years ago, and I've been hooked ever since. I love the constant learning and the creativity involved in building things that live on the web.
-            </p>
-            <p className="text-lg leading-relaxed mt-4">
+              <div><br /></div>
               When I'm not coding, you'll find me exploring new technologies, or enjoying photography and traveling. I'm always excited to connect with like-minded people and explore new opportunities.
             </p>
-          </div>
         </div>
       </div>
     </motion.section>
