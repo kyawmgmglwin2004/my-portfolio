@@ -20,7 +20,7 @@ const About = () => {
         <div className="about-content relative item-center  p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-10
 ">
           <img
-            src="/images/cv.png"
+            src="/images/pf.jpg"
             alt="Profile"
             className="w-36 h-36 md:w-55 md:h-55 rounded-full object-cover border-2 border-white shadow-lg md:my-auto  mx-auto"
           />
