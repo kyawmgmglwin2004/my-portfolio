@@ -17,6 +17,10 @@ const skills = [
   { name: 'Bootstrap', icon: '🅱️', category: 'Frontend' },
   { name: 'Tailwind CSS', icon: '🌊', category: 'Frontend' },
 
+  { name: 'MySQL', icon: '🐬', category: 'Database' },
+  { name: 'Prisma', icon: '🔷', category: 'Database' },
+
+
   { name: 'Cloud / VPS', icon: '☁️', category: 'DevOps' },
   { name: 'AWS S3', icon: '📦', category: 'DevOps' },
   { name: 'Docker', icon: '🐳', category: 'DevOps' },

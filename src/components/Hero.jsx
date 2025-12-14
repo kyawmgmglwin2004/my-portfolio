@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import React from 'react';
-import resumeFile from '../assets/kmml.pdf'
+import resumeFile from '../assets/kmml-cv.pdf'
 
 const containerVariants = {
   hidden: { opacity: 0 },

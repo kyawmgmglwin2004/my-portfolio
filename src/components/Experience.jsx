@@ -12,7 +12,7 @@ const experiences = [
   {
     role: 'Fullstack Developer',
     company: 'Studio AMK',
-    period: 'Auguest 2024 - Present',
+    period: 'Match 2025 - November 2025',
     details: ['Built REST API with  Node js Moleculer-framwork','Built responsive UIs with React and Tailwind CSS','AI -Qdrant and Ollama-model', 'Improved performance and accessibility', 'Collaborated with designers and DevOps engineer']
   }
 ];

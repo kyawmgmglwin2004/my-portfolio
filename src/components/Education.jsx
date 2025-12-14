@@ -28,7 +28,7 @@ const education = [
     id: 4,
     degree: "Turning Programming Training Center",
     school: "Sayar Thet Khaing",
-    period: "2025",
+    period: "2024",
     details: ["javaScript", "Node js", "Express js", "React","TypeScript","Next js", "MySQL", "API Integration"]
   }
 ];
